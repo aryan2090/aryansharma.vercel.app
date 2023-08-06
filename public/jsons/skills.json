@@ -1,0 +1,5 @@
+{
+    "programming-languages": ["Python(TensorFlow, Keras, NumPy, Pandas, Polars)", "C", "C++", "Java", "JavaScript", "HTML+CSS"],
+    "languages": ["English", "Hindi", "French"],
+    "technologies": ["AWS", "Azure", "GCP", "Git", "LaTeX", "Docker", "Power BI", "Tableau", "Alteryx"]
+}

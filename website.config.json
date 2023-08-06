@@ -1,0 +1,11 @@
+{
+    "email": "aryanrajeshsharma+contact@gmail.com",
+    "name": "Aryan Sharma",
+    "intro": "I'm Aryan Sharma, a graduate student at the University of Michigan, specializing in Data Science. I have a passion for machine learning, with expertise in building models for Image Classification and Text Classification. Currently, I am exploring Transformers architecture and Natural Language Processing (NLP).",
+    "image": "/images/aryan.png",
+    "footerLinks": {
+        "GitHub": "https://github.com/aryan2090",
+        "LinkedIn": "https://www.linkedin.com/in/aryans29/",
+        "Twitter": "https://twitter.com/aryan2090"
+    }
+}

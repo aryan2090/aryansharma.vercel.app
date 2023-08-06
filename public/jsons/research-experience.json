@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Undergraduate Researcher",
+        "organization": "CHIPS (Centre for Heterogeneous and Intelligent Processing Systems)",
+        "start": "August 2021",
+        "end": "December 2021",
+        "description": "Developed a TensorFlow-Keras machine learning model to classify 2 lead ECG signals with 98% accuracy.",
+        "location": "Bengaluru, KA",
+        "image": "/images/CHIPS.png"
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "title": "RtTSLC: A Framework for Real-Time Two-Handed Sign Language Translation",
+        "authors": ["Aryan Sharma", 
+            "Ashwin Srinivasa Ramanujan", 
+            "Aaptha Boggaram",
+            "Ankith Boggaram", 
+            "R. Bharathi"
+        ],
+        "type": "Conference",
+        "description": "Conceptualized a Framework for Real-Time Two-Handed Sign Language Translation for Indian Sign Language(ISL).",
+        "conference": "International Conference on Smart Trends in Computing and Communications",
+        "tags": [
+            "Machine Learning",
+            "Computer Vision",
+            "Sign Language",
+            "Real-Time Translation"
+        ],
+        "link": "https://link.springer.com/chapter/10.1007/978-981-99-0769-4_62"
+    },
+    {
+        "title": "Sign Language Translation Systems: A Systematic Literature Review",
+        "authors": ["Aryan Sharma", 
+            "Ashwin Srinivasa Ramanujan", 
+            "Aaptha Boggaram",
+            "Ankith Boggaram", 
+            "R. Bharathi"
+        ],
+        "type": "Journal",
+        "description": "Surveyed Literature on Translation Systems by reviewing and summarizing more than 200 research papers and articles.",
+        "conference": "IGI Global",
+        "tags": [
+            "Machine Learning",
+            "Computer Vision",
+            "Sign Language",
+            "Real-Time Translation",
+            "Survey",
+            "Literature Review",
+            "Systematic Review",
+            "Systematic Literature Review",
+            "SLR"
+        ],
+        "link": "https://www.igi-global.com/gateway/article/311448"
+    },
+    {
+        "title": "Cardiac anomaly detection models for wearable devices",
+        "authors": ["Aryan Sharma", 
+            "Aaptha Boggaram",
+            "Ankith Boggaram", 
+            "Dr. Madhura Purnaprajna"
+        ],
+        "type": "Poster",
+        "description": "Developed an architecture for a wearable device for classifying 2-lead ECG signal with 98% accuracy.",
+        "conference": "13th HiPC Student Research Symposium (SRS),28th IEEE International conference",
+        "tags": [
+            "Machine Learning",
+            "ECG",
+            "Cardiac Anomaly Detection",
+            "Wearable Devices",
+            "Deep Learning",
+            "CNN"
+        ],
+        "link": "/HiPC.pdf"
+    }
+]

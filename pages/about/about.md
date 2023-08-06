@@ -1,0 +1,9 @@
+# About me
+
+Hello there! I'm Aryan Sharma, a Masters student specializing in Data Science at the prestigious University of Michigan, Ann Arbor. My journey in academia and technology has been marked by a strong commitment to exploring the nuances of Machine Learning. Over the years, I've honed my craft in Image and Text Classification models, further expanding my learning landscape to include Transformers architecture and Natural Language Processing (NLP). As an authoritative voice in my field, I've contributed to two key publications: "RtTSLC: A Framework for Real-Time Two-Handed Sign Language Translation" and "Sign Language Translation Systems: A Systematic Literature Review", both being significant additions to the discourse on Sign Language translations and systems.
+
+But my passion doesn't stop at AI and machine learning alone. My journey has also seen me excel in sports like table tennis, earning a commendable third position in a state-level tournament, and roller skating, marking my spot at 7th in a national competition. Sports strategy translates wonderfully into my love for European football, adding an exhilarating edge to my life outside of academia. 
+
+My interests also delve into thoughtfully exploring the interconnected threads of philosophy, layering my world view with a rich tapestry of wisdom that helps me navigate life's complexities. A fan of cultural phenomena, I enjoy anime and manga, finding them to be an engaging way to understand different narratives and art forms.
+
+Follow my journey as I balance the world of machine learning and sports, grounding myself in philosophical insights, and weaving fantastical narratives through anime and manga.

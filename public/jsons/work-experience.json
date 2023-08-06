@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Data Scientist",
+        "organization": "Genpact",
+        "start": "February 2023",
+        "end": "August 2023",
+        "description": "Developed dashboards and analyzed trends of Key Performance Indicators to convey Business insights.",
+        "location": "Bengaluru, KA",
+        "image": "/images/genpact.png"
+    },
+    {
+        "title": "Teaching Assistant",
+        "organization": "PES University",
+        "start": "June 2022",
+        "end": "October 2022",
+        "description": "Conducted curriculum-based classroom sessions where students engage in solving problems. Assisted the classroom teachers by facilitating hands-on sessions for assisting undergrads to apply the theory covered in the lessons.",
+        "location": "Bengaluru, KA",
+        "image": "/images/pes.png"
+    },
+    {
+        "title": "Data Analyst Intern",
+        "organization": "Smarthub.ai",
+        "start": "June 2022",
+        "end": "October 2022",
+        "description": "Contributed to Paint Optimization Project for TVS motors by developing a machine learning model to reduce rundown of paint by 98%.",
+        "location": "Bengaluru, KA",
+        "image": "/images/smarthub.png"
+    },
+    {
+        "title": "Data Science Intern",
+        "organization": "Skan.ai",
+        "start": "June 2021",
+        "end": "August 2021",
+        "description": "Detected anomalous data by building a process similarity matrix which helped the company find sequential processes.",
+        "location": "Bengaluru, KA",
+        "image": "/images/skan.png"
+    }
+]
