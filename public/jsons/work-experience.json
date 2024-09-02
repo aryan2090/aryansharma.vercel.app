@@ -1,29 +1,47 @@
 [
     {
+        "title": "Software Development Engineer Intern",
+        "organization": "Amazon",
+        "start": "May 2024",
+        "end": "present",
+        "description": "Implemented a distributed lock mechanism in AWS Batch Scheduler, preventing job queue blocking and ensuring accurate vCPU calculation. Enhanced AWS Batch Scheduler robustness with detailed monitoring metrics for Manager bootstrapping process.",
+        "location": "Seattle, US",
+        "image": "/images/aws.png"
+    },
+    {
+        "title": "Graduate Student Instructor",
+        "organization": "University of Michigan",
+        "start": "January 2024",
+        "end": "May 2024",
+        "description": "Led discussion sections for Statistics 250, increasing student participation by 20%. Designed and graded assessments, providing constructive feedback in lab sections and office hours.",
+        "location": "Ann Arbor, US",
+        "image": "/images/umich.png"
+    },
+    {
         "title": "Data Scientist",
         "organization": "Genpact",
         "start": "February 2023",
         "end": "August 2023",
-        "description": "Developed dashboards and analyzed trends of Key Performance Indicators to convey Business insights.",
-        "location": "Bengaluru, KA",
+        "description": "Created data-driven dashboards and conducted KPI trend analysis, reducing customer churn by 30% and increasing average order value by 25%.",
+        "location": "Bengaluru, IN",
         "image": "/images/genpact.png"
     },
     {
         "title": "Teaching Assistant",
         "organization": "PES University",
         "start": "June 2022",
-        "end": "October 2022",
-        "description": "Conducted curriculum-based classroom sessions where students engage in solving problems. Assisted the classroom teachers by facilitating hands-on sessions for assisting undergrads to apply the theory covered in the lessons.",
-        "location": "Bengaluru, KA",
+        "end": "November 2022",
+        "description": "Orchestrated interactive sessions for Statistics for Data Science, increasing participation by 25% and improving academic performance by 15%. Facilitated application of theoretical concepts, resulting in 25% increase in comprehension.",
+        "location": "Bengaluru, IN",
         "image": "/images/pes.png"
     },
     {
-        "title": "Data Analyst Intern",
+        "title": "Data Analyst",
         "organization": "Smarthub.ai",
         "start": "June 2022",
         "end": "October 2022",
-        "description": "Contributed to Paint Optimization Project for TVS motors by developing a machine learning model to reduce rundown of paint by 98%.",
-        "location": "Bengaluru, KA",
+        "description": "Developed ML model for TVS Motors' Paint Optimization Project, reducing paint runoff by 98%, resulting in significant cost savings and environmental impact.",
+        "location": "Bengaluru, IN",
         "image": "/images/smarthub.png"
     },
     {
@@ -31,8 +49,8 @@
         "organization": "Skan.ai",
         "start": "June 2021",
         "end": "August 2021",
-        "description": "Detected anomalous data by building a process similarity matrix which helped the company find sequential processes.",
-        "location": "Bengaluru, KA",
+        "description": "Implemented process similarity matrix to identify anomalous data patterns, streamlining sequential processes and reducing operational bottlenecks by 30%, improving overall productivity by 20%.",
+        "location": "Bengaluru, IN",
         "image": "/images/skan.png"
     }
 ]

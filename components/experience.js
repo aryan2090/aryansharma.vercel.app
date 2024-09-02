@@ -93,11 +93,9 @@ function ExperienceTile({ isExperience, experience }) {
             </Col>
             <Col className="d-flex justify-content-center flex-column">
                 <ul>
-                    {experience.description != "" ? experience.description.split('\n').map((line, index) => {
-                        return (
-                            <li key={index}>{line}</li>
-                        );
-                    }) : "In progress"}
+                    {experience.description.split('. ').filter(point => point.trim() !== '').slice(0, 2).map((point, index) => (
+                        <li key={index}>{point}</li>
+                    ))}
                 </ul>
             </Col>
         </Row>

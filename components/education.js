@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Education() {
     return (
         <div className="mt-5">
-            <h1 className="mb-3" id="publications">
+            <h1 className="mb-3" id="education">
                 Education
             </h1>
             {
@@ -67,16 +67,38 @@ function EducationTile({ education }) {
                         </b>
                     </Col>
                 </Row>
-                <Row className="mt-2">
-                    <li variant="secondary">
-                        <b><u>GPA</u></b>: {education.gpa}
-                    </li>
-                    {education.description && (
-                        <li variant="secondary">
-                            {education.description}
-                        </li>
-                    )}
+                <Row>
+                    <Col>
+                        <span variant="secondary">
+                            {education.location}
+                        </span>
+                    </Col>
                 </Row>
+                {education.gpa && (
+                    <Row className="mt-2">
+                        <Col>
+                            <span variant="secondary">
+                                <b>GPA:</b> {education.gpa}
+                            </span>
+                        </Col>
+                    </Row>
+                )}
+                <Row className="mt-2">
+                    <Col>
+                        <span variant="secondary">
+                            <b>Course Highlights:</b> {education.courses.join(', ')}
+                        </span>
+                    </Col>
+                </Row>
+                {education.awards && (
+                    <Row className="mt-2">
+                        <Col>
+                            <span variant="secondary">
+                                <b>Awards/Honors:</b> {education.awards.join(', ')}
+                            </span>
+                        </Col>
+                    </Row>
+                )}
             </Col >
         </Row >
     )
