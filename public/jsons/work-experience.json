@@ -3,7 +3,7 @@
         "title": "Software Development Engineer Intern",
         "organization": "Amazon",
         "start": "May 2024",
-        "end": "present",
+        "end": "Aug 2024",
         "description": "Implemented a distributed lock mechanism in AWS Batch Scheduler, preventing job queue blocking and ensuring accurate vCPU calculation. Enhanced AWS Batch Scheduler robustness with detailed monitoring metrics for Manager bootstrapping process.",
         "location": "Seattle, US",
         "image": "/images/aws.png"

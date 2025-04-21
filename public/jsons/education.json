@@ -9,6 +9,8 @@
         "courses": [
             "Machine Learning",
             "Large Language Models",
+            "Information Retrieval",
+            "Database Management Systems",
             "Data Manipulation and Analysis"
         ]
     },
@@ -19,14 +21,13 @@
         "degree": "Bachelor of Technology",
         "major": "Computer Science and Engineering",
         "location": "Bengaluru, IN",
-        "gpa": "3.28/4.0",
+        "gpa": "3.53/4.0",
         "courses": [
             "Machine Learning",
             "Statistics for Data Science",
             "Cloud Computing",
             "Big Data",
-            "Data Analytics",
-            "Database Management System"
+            "Data Analytics"
         ],
         "awards": [
             "Prof. M R Doreswamy Merit Scholarship for excellent academic performance"
