@@ -2,10 +2,11 @@
     {
         "university": "University of Michigan",
         "start": "08/2023",
-        "end": "present",
+        "end": "05/2025",
         "degree": "Masters",
         "major": "Data Science",
         "location": "Ann Arbor, US",
+        "gpa": "3.53/4.0",
         "courses": [
             "Machine Learning",
             "Large Language Models",

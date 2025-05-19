@@ -1,7 +1,7 @@
 {
     "email": "aryanrajeshsharma+contact@gmail.com",
     "name": "Aryan Sharma",
-    "intro": "I'm Aryan Sharma, a graduate student at the University of Michigan, specializing in Data Science. I have a passion for machine learning, with expertise in building models for Image Classification and Text Classification. Currently, I am exploring Transformers architecture and Natural Language Processing (NLP).",
+    "intro": "I'm Aryan Sharma, a recent Master's graduate in Data Science from the University of Michigan. I'm passionate about transforming data into impactful solutions, demonstrated by engineering a system-stabilizing distributed locking mechanism at Amazon and developing models at Genpact that slashed customer churn. My research focuses on pioneering innovative and scalable machine learning systems with real-world impact, including a high-accuracy real-time sign language translator and cardiac anomaly detection models. Beyond data, I enjoy table tennis, manga/anime, and philosophy.",
     "image": "/images/aryan.png",
     "footerLinks": {
         "GitHub": "https://github.com/aryan2090",
