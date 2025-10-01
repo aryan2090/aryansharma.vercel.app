@@ -61,7 +61,7 @@ function ExperienceTile({ isExperience, experience }) {
                     <h5>{experience.title}</h5>
                 </Row>
                 <Row className="mb-2 text-muted">
-                    {experience.start} - {experience.end}
+                    {experience.start}{experience.end ? ` - ${experience.end}` : ''}
                 </Row>
                 <Row className="mb-2 text-muted">
                     {experience.location}
@@ -92,11 +92,13 @@ function ExperienceTile({ isExperience, experience }) {
                 </Row>
             </Col>
             <Col className="d-flex justify-content-center flex-column">
-                <ul>
-                    {experience.description.split('. ').filter(point => point.trim() !== '').slice(0, 2).map((point, index) => (
-                        <li key={index}>{point}</li>
-                    ))}
-                </ul>
+                {experience.description && (
+                    <ul>
+                        {experience.description.split('. ').filter(point => point.trim() !== '').slice(0, 2).map((point, index) => (
+                            <li key={index}>{point}</li>
+                        ))}
+                    </ul>
+                )}
             </Col>
         </Row>
     );

@@ -2,9 +2,11 @@
 
 import { Container, Navbar, Nav, Offcanvas, ButtonGroup, ToggleButton } from "react-bootstrap";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 export default function Topbar() {
+    const router = useRouter();
     const [show, setShow] = useState(false);
     const [visible, setVisible] = useState(false);
     const pageYOffsetTrigger = 150;
@@ -136,13 +138,74 @@ export default function Topbar() {
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                                <Nav.Link href="/" as={Link} className="main-text-regular" onClick={() => setShow(false)}>
+                                <Nav.Link
+                                    href="/"
+                                    as={Link}
+                                    className="main-text-regular"
+                                    onClick={() => setShow(false)}
+                                    active={router.pathname === '/'}
+                                    aria-current={router.pathname === '/' ? 'page' : undefined}
+                                >
                                     Home
                                 </Nav.Link>
-                                <Nav.Link href="/about" as={Link} className="main-text-regular" onClick={() => setShow(false)}>
+                                <Nav.Link
+                                    href="/education"
+                                    as={Link}
+                                    className="main-text-regular"
+                                    onClick={() => setShow(false)}
+                                    active={router.pathname === '/education'}
+                                    aria-current={router.pathname === '/education' ? 'page' : undefined}
+                                >
+                                    Education
+                                </Nav.Link>
+                                <Nav.Link
+                                    href="/work-experience"
+                                    as={Link}
+                                    className="main-text-regular"
+                                    onClick={() => setShow(false)}
+                                    active={router.pathname === '/work-experience'}
+                                    aria-current={router.pathname === '/work-experience' ? 'page' : undefined}
+                                >
+                                    Work Experience
+                                </Nav.Link>
+                                <Nav.Link
+                                    href="/publications"
+                                    as={Link}
+                                    className="main-text-regular"
+                                    onClick={() => setShow(false)}
+                                    active={router.pathname === '/publications'}
+                                    aria-current={router.pathname === '/publications' ? 'page' : undefined}
+                                >
+                                    Publications
+                                </Nav.Link>
+                                <Nav.Link
+                                    href="/awards"
+                                    as={Link}
+                                    className="main-text-regular"
+                                    onClick={() => setShow(false)}
+                                    active={router.pathname === '/awards'}
+                                    aria-current={router.pathname === '/awards' ? 'page' : undefined}
+                                >
+                                    Awards
+                                </Nav.Link>
+                                <Nav.Link
+                                    href="/about"
+                                    as={Link}
+                                    className="main-text-regular"
+                                    onClick={() => setShow(false)}
+                                    active={router.pathname === '/about'}
+                                    aria-current={router.pathname === '/about' ? 'page' : undefined}
+                                >
                                     About
                                 </Nav.Link>
-                                <Nav.Link href="/contact" as={Link} className="main-text-regular" onClick={() => setShow(false)}>
+                                <Nav.Link
+                                    href="/contact"
+                                    as={Link}
+                                    className="main-text-regular"
+                                    onClick={() => setShow(false)}
+                                    active={router.pathname === '/contact'}
+                                    aria-current={router.pathname === '/contact' ? 'page' : undefined}
+                                >
                                     Contact Me
                                 </Nav.Link>
                             </Nav>
