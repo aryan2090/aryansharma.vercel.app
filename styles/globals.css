@@ -259,6 +259,10 @@ html[data-bs-theme="dark"] .bi-trophy-fill {
   fill: #f2f2f2;
 }
 
+html[data-bs-theme="dark"] img[srcset*="trophy.png"] {
+  filter: invert(1);
+}
+
 html[data-bs-theme="dark"] .search-form input:focus+#search-icon {
   background-color: hsl(210, 11%, 20%)
 }
